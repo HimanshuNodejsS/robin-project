@@ -6,7 +6,7 @@ int main()
  int Total_Processes=0;
  cin>>Total_Processes;
  
- cout<<"Please enter the burst times for each processes: "<<endl;
+ cout<<"Please enter the burst times for each processes: ";
  int BurstTime[10][5];
  for(int i =0;i<Total_Processes;++i)
  {
