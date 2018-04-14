@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
- cout<<"How much processes you need to demonstrate: Please enter the number: "<<endl;
+ cout<<"How much processes you need to demonstrate: Please enter the number: ";
  int Total_Processes=0;
  cin>>Total_Processes;
  
