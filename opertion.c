@@ -67,7 +67,7 @@ int main()
   else if(!resume)
    break;
  }
- float AverageWaitingTime =0, AverageTurnAroungTime =0;
+ float AverageWaitingTime =0, AverageTurnAroungTime=0;
  
   for(int i=0;i<Total_Processes;++i)
   {
@@ -81,12 +81,12 @@ int main()
    
    for(int i = 0;i<Total_Processes;++i)
    {
-     cout<<"Total_Processesess ID is =  "<<i<<endl;
+     cout<<"Total_Process ID is =  "<<i<<endl;
      cout<<"Burst time is = "<<BurstTime[i][0]<<endl;
      cout<<"Waiting time is= "<<BurstTime[i][2]<<endl;
      cout<<"Turn Around Time  is= "<<BurstTime[i][3]<<endl;
      cout<<endl<<endl;
    }
-   cout<<"Average turn around time is = "<<AverageTurnAroungTime<<endl;
-   cout<<"Average waiting time is = "<<AverageWaitingTime<<endl;
+   cout<<"Average turn around time is = "<<AverageTurnAroungTime<<endl<<endl;
+   cout<<"Average waiting time is = "<<AverageWaitingTime;
 }
